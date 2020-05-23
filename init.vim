@@ -6,3 +6,4 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/linter.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/molokai.vim
+source $HOME/.config/nvim/plug-config/floaterm.vim

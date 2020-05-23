@@ -33,4 +33,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'joshdick/onedark.vim'
+  Plug 'voldikss/vim-floaterm'
 call plug#end()
