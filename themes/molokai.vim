@@ -2,7 +2,7 @@ hi Comment cterm=italic
 let g:molokai_original = 1
 
 syntax on
-colorscheme molokai
+colorscheme monokaiphoenix
 
 
 " checks if your terminal has 24-bit color support
