@@ -23,6 +23,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tomasr/molokai'
   Plug 'sudar/comments.vim'
   Plug 'https://github.com/pangloss/vim-javascript.git'
+  Plug 'https://github.com/HerringtonDarkholme/yats.vim.git'
   Plug 'https://github.com/tpope/vim-surround.git'
   Plug 'posva/vim-vue'
   Plug 'ryanoasis/vim-devicons'
