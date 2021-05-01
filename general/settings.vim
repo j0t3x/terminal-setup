@@ -37,8 +37,17 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 "set autochdir                           " Your working directory will always be the same as your working directory
 :autocmd OptionSet guicursor noautocmd set guicursor=
+" cpp linter
+let g:syntastic_cpp_checkers = ['cpplint']
+let g:syntastic_c_checkers = ['cpplint']
+let g:syntastic_cpp_cpplint_exec = 'cpplint'
+" The following two lines are optional. Configure it to your liking!
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
+autocmd BufWritePost *.cpp :ClangFormat
+autocmd BufWritePost *.h :ClangFormat
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 " You can't stop me
-cmap w!! w !sudo tee % 
+cmap w!! w !sudo tee %

@@ -35,4 +35,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'joshdick/onedark.vim'
   Plug 'voldikss/vim-floaterm'
+  Plug 'rhysd/vim-clang-format'
 call plug#end()

@@ -17,16 +17,53 @@
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
-  "explorer.keyMappings": {
+  "explorer.keyMappings.global": {
     "<cr>": [
       "expandable?",
       "expand",
       "open"
     ],
-    "v": "open:vsplit"
+    "v": "open:vsplit",
+    "yp": "copyFilepath",
+    "yn": "copyFilename",
+    "c": "copyFile",
+    "cc": "cutFile",
+    "p": "pasteFile",
+    "d": "delete",
+    "dF": "deleteForever",
+    ".": "toggleHidden"
   },
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
-  ]
+  ],
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "args": [
+        "--log-file=/tmp/ccls.log",
+        "-v=1"
+      ],
+      "filetypes": [
+        "c",
+        "cc",
+        "cpp",
+        "c++",
+        "objc",
+        "objcpp"
+      ],
+      "rootPatterns": [
+        ".ccls",
+        "compile_commands.json"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        },
+        "client": {
+          "snippetSupport": true
+        }
+      }
+    }
+  }
 }
