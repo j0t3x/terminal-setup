@@ -40,5 +40,10 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" CmakeGenerate
+nnoremap <Leader>g :CMakeGenerate<CR>
+nnoremap <Leader>b :CMakeBuild<CR>
+nnoremap <Leader>q :CMakeClose<CR>
+
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da

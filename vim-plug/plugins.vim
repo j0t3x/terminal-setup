@@ -36,4 +36,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'joshdick/onedark.vim'
   Plug 'voldikss/vim-floaterm'
   Plug 'rhysd/vim-clang-format'
+  Plug 'cdelledonne/vim-cmake'
 call plug#end()
