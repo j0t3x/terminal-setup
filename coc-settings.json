@@ -8,6 +8,7 @@
     "yaml",
     "json",
     "python",
+    "rust",
     "typescript",
     "typescriptreact"
   ],

@@ -1,5 +1,5 @@
 env:
-  TERM: xterm-256color
+  TERM: alacritty
 window:
   dimensions:
     columns: 140
@@ -28,7 +28,7 @@ font:
   bold_italic:
     family: FiraCode Nerd Font
     style: SemiBold
-  size: 13.0
+  size: 15.0
   offset:
     x: 0
     y: 0
@@ -66,11 +66,25 @@ colors:
     cyan: '#95E6CB'
     white: '#FFFFFF'
 mouse:
-  url:
-    launcher:
-      # This depends on your OS, on Mac it’s `open`
-      program: open
-    modifiers: Command
+  # Click settings
+  #
+  # The `double_click` and `triple_click` settings control the time
+  # alacritty should wait for accepting multiple clicks as one double
+  # or triple click.
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+  # If this is `true`, the cursor is temporarily hidden when typing.
+  hide_when_typing: false
+
+# Regex hints
+#
+# Terminal hints can be used to find text in the visible part of the terminal
+# and pipe it to other applications.
+hints:
+  # Keys used for the hint labels.
+  alphabet: "jfkdls;ahgurieowpq"
+
 bell:
   animation: EaseOutExpo
   duration: 0
