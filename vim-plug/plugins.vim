@@ -39,3 +39,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'cdelledonne/vim-cmake'
   Plug 'kdheepak/lazygit.nvim'
 call plug#end()
+
+" When updating all dependencies also update coc
+" https://github.com/weirongxu/coc-explorer/issues/500
