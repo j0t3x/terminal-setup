@@ -37,4 +37,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'voldikss/vim-floaterm'
   Plug 'rhysd/vim-clang-format'
   Plug 'cdelledonne/vim-cmake'
+  Plug 'kdheepak/lazygit.nvim'
 call plug#end()

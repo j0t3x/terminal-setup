@@ -13,6 +13,6 @@ let g:floaterm_autoclose=1
 
 command! FZF FloatermNew fzf
 command! LDO FloatermNew lazydocker
-command! LGI FloatermNew lazygit
+"command! LGI FloatermNew lazygit
 command! HT FloatermNew htop
 

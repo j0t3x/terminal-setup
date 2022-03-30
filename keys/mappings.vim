@@ -47,3 +47,8 @@ nnoremap <Leader>q :CMakeClose<CR>
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+
+" Lazygit
+nnoremap <Leader>l :LazyGit<CR>
+

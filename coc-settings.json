@@ -12,6 +12,7 @@
     "typescript",
     "typescriptreact"
   ],
+  "eslint.autoFixOnSave": true,
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
