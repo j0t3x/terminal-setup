@@ -51,4 +51,5 @@ nnoremap <Leader>O O<Esc>^Da
 
 " Lazygit
 nnoremap <Leader>l :LazyGit<CR>
+nnoremap <Leader>ff :Rg<CR>
 
