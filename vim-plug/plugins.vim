@@ -38,6 +38,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'rhysd/vim-clang-format'
   Plug 'cdelledonne/vim-cmake'
   Plug 'kdheepak/lazygit.nvim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'sindrets/diffview.nvim'
 call plug#end()
 
 " When updating all dependencies also update coc
