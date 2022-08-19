@@ -37,7 +37,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'voldikss/vim-floaterm'
   Plug 'rhysd/vim-clang-format'
   Plug 'cdelledonne/vim-cmake'
-  Plug 'kdheepak/lazygit.nvim'
+  Plug 'kdheepak/lazygit.vim', { 'branch': 'nvim-v0.4.3' }
 call plug#end()
 
 " When updating all dependencies also update coc
